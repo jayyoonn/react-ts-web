@@ -1,0 +1,19 @@
+{
+  "references": [{ "path": "./tsconfig.vite.json" }], // 指定工程引用依赖
+  "compilerOptions": {
+    "target": "ES2020", // 指定编译的ECMAScript目标版本
+    "lib": ["ES2020", "DOM", "DOM.Iterable"], // 编译过程中需要引入的库文件的列表
+    "jsx": "react-jsx", // 指定 jsx 代码的生成
+    "module": "ESNext", // 指定生成哪个模块系统代码
+    "moduleResolution": "Node", // 决定如何处理模块
+    "allowImportingTsExtensions": true, // 允许TypeScript文件通过TypeScript特定的扩展名如.ts, .mts, 或 .tsx互相导入
+    "resolveJsonModule": true, // 允许引入 JSON 文件
+    "allowJs": true, // 是否允许编译javascript文件
+    "noEmit": true, // 设置是否输出 js 文件，一般是设置为 false，将打包等工作交给 vite/webpack 等工具
+    "isolatedModules": true, // 将每个文件做为单独的模块
+    "esModuleInterop": true, // 支持合成模块的默认导入
+    "forceConsistentCasingInFileNames": true, // forceConsistentCasingInFileNames
+    "strict": true, // 启用所用严格的类型检查
+    "skipLibCheck": true // 跳过对 .d.ts 文件的类型检查
+  }
+}

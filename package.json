@@ -1,0 +1,34 @@
+{
+  "name": "react-ts-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "a react typescript web template",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vite",
+    "build": "vite build"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite"
+  ],
+  "homepage": "https://github.com/jayyoonn/react-ts-web",
+  "bugs": {
+    "url": "https://github.com/jayyoonn/react-ts-web/issues"
+  },
+  "author": "jayyoonn <18819444437@163.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.2"
+  }
+}
