@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "extends": ["alloy", "alloy/react", "alloy/typescript", "prettier"],
+  "plugins": ["prettier"],
+  "env": {},
+  "globals": {},
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
