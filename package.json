@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "prepare": "husky install"
   },
   "keywords": [
     "react",
@@ -35,6 +36,8 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
     "typescript": "^5.1.6",
     "vite": "^4.4.2",
