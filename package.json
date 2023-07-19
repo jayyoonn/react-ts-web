@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "vite",
     "build": "vite build",
+    "lint:fix": "eslint --fix --ext .js,.jsx,.tsx,.ts .",
     "prepare": "husky install"
   },
   "keywords": [

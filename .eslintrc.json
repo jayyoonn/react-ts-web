@@ -1,12 +1,21 @@
 {
+  "root": true,
   "parserOptions": {
     "project": ["./tsconfig.json"]
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "extends": ["alloy", "alloy/react", "alloy/typescript", "prettier"],
   "plugins": ["prettier"],
-  "env": {},
+  "env": {
+    "browser": true
+  },
   "globals": {},
   "rules": {
     "prettier/prettier": "error"
-  }
+  },
+  "ignorePatterns": ["dist", "node_modules"]
 }
