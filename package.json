@@ -10,7 +10,8 @@
     "build": "vite build",
     "lint:fix": "eslint --fix --ext .js,.jsx,.tsx,.ts .",
     "commit": "git add . && git-cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version"
   },
   "config": {
     "commitizen": {
@@ -48,6 +49,7 @@
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
     "sass": "^1.64.0",
+    "standard-version": "^9.5.0",
     "typescript": "^5.1.6",
     "vite": "^4.4.2",
     "vite-plugin-eslint": "^1.8.1"
