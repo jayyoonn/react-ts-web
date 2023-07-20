@@ -9,7 +9,13 @@
     "serve": "vite",
     "build": "vite build",
     "lint:fix": "eslint --fix --ext .js,.jsx,.tsx,.ts .",
+    "commit": "git add . && git-cz",
     "prepare": "husky install"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   },
   "keywords": [
     "react",
@@ -32,6 +38,7 @@
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
     "@vitejs/plugin-react": "^4.0.3",
+    "cz-git": "^1.7.0",
     "eslint": "^8.45.0",
     "eslint-config-alloy": "^5.0.0",
     "eslint-config-prettier": "^8.8.0",
