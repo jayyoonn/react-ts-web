@@ -1,5 +1,14 @@
 .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   h1 {
-    color: red;
+    margin-top: 100px;
+  }
+  .tabs {
+    margin-top: 20px;
+    a {
+      margin: 0 20px;
+    }
   }
 }

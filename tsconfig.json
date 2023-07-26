@@ -3,7 +3,7 @@
   "compilerOptions": {
     "target": "ES2020", // 指定编译的ECMAScript目标版本
     "lib": ["ES2020", "DOM", "DOM.Iterable"], // 编译过程中需要引入的库文件的列表
-    "jsx": "react-jsx", // 指定 jsx 代码的生成
+    "jsx": "react-jsx", // 指定 jsx 代码的生成，无需在每个jsx文件中引入React
     "module": "ESNext", // 指定生成哪个模块系统代码
     "moduleResolution": "Node", // 决定如何处理模块
     "allowImportingTsExtensions": true, // 允许TypeScript文件通过TypeScript特定的扩展名如.ts, .mts, 或 .tsx互相导入
@@ -14,6 +14,6 @@
     "esModuleInterop": true, // 支持合成模块的默认导入
     "forceConsistentCasingInFileNames": true, // forceConsistentCasingInFileNames
     "strict": true, // 启用所用严格的类型检查
-    "skipLibCheck": true // 跳过对 .d.ts 文件的类型检查
+    "skipLibCheck": true, // 跳过对 .d.ts 文件的类型检查
   }
 }
