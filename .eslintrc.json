@@ -6,6 +6,9 @@
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "import/resolver": {
+      "alias": [["@", "./src"]]
     }
   },
   "extends": ["alloy", "alloy/react", "alloy/typescript", "prettier"],
@@ -15,7 +18,8 @@
   },
   "globals": {},
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-return-assign": "off"
   },
   "ignorePatterns": ["dist", "node_modules"]
 }
