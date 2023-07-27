@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/jayyoonn/react-ts-web/compare/v1.0.0...v1.2.0) (2023-07-27)
+
+
+### Features
+
+* 新增react router路由 ([3bcbe51](https://github.com/jayyoonn/react-ts-web/commit/3bcbe5113291ddb5db4b124149eebe5e321947a5))
+
 ## [1.1.0](https://github.com/jayyoonn/react-ts-web/compare/v1.0.0...v1.1.0) (2023-07-27)
 
 
