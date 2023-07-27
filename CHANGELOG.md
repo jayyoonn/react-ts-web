@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/jayyoonn/react-ts-web/compare/v1.2.0...v1.3.0) (2023-07-27)
+
+
+### Features
+
+* 添加zustand;添加路径访问别名 ([c5057be](https://github.com/jayyoonn/react-ts-web/commit/c5057bed60740ea9ad1b2146f9440b6ba5b367db))
+
 ## [1.2.0](https://github.com/jayyoonn/react-ts-web/compare/v1.0.0...v1.2.0) (2023-07-27)
 
 
