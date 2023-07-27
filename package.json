@@ -1,6 +1,6 @@
 {
   "name": "react-ts-web",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "a react typescript web template",
   "type": "module",
@@ -11,7 +11,8 @@
     "lint:fix": "eslint --fix --ext .js,.jsx,.tsx,.ts .",
     "commit": "git add . && git-cz",
     "prepare": "husky install",
-    "release": "standard-version"
+    "release": "standard-version",
+    "tsc": "tsc --noEmit"
   },
   "config": {
     "commitizen": {

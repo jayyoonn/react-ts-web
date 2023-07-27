@@ -14,6 +14,8 @@
     "esModuleInterop": true, // 支持合成模块的默认导入
     "forceConsistentCasingInFileNames": true, // forceConsistentCasingInFileNames
     "strict": true, // 启用所用严格的类型检查
-    "skipLibCheck": true, // 跳过对 .d.ts 文件的类型检查
-  }
+    "skipLibCheck": true // 跳过对 .d.ts 文件的类型检查
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
