@@ -4,6 +4,7 @@ import eslint from 'vite-plugin-eslint';
 import path from 'path';
 
 export default defineConfig({
+  envDir: './env',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
