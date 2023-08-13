@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/jayyoonn/react-ts-web/compare/v1.4.0...v1.5.0) (2023-08-13)
+
+
+### Features
+
+* css module; 路由懒加载，嵌套 ([a0b6b9c](https://github.com/jayyoonn/react-ts-web/commit/a0b6b9c030028f35936e9329fc96f9dd88341e90))
+
 ## [1.4.0](https://github.com/jayyoonn/react-ts-web/compare/v1.3.0...v1.4.0) (2023-07-27)
 
 
