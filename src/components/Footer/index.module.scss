@@ -1,0 +1,13 @@
+// index.module.scss
+.Footer {
+  position: fixed;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  color: $color;
+  background-color: $backgroundColor;
+  justify-content: center;
+  align-items: center;
+}

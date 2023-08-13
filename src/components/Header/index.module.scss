@@ -1,0 +1,12 @@
+.Header {
+  position: sticky;
+  display: flex;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 50px;
+  color: $color;
+  background-color: $backgroundColor;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import styles from './index.module.scss';
 
 export default () => {
   const navigate = useNavigate();
@@ -6,9 +7,9 @@ export default () => {
     navigate(-1);
   };
   return (
-    <>
-      <h1>About Page</h1>
+    <div className={styles.home}>
+      <h1 className={styles.title}>About Page</h1>
       <button onClick={goBack}>返回</button>
-    </>
+    </div>
   );
 };

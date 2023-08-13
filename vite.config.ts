@@ -11,5 +11,15 @@ export default defineConfig({
     },
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: '@import "@/assets/scss/mixin.scss";',
+      },
+    },
+    modules: {
+      localsConvention: 'camelCaseOnly',
+    },
+  },
   plugins: [react(), eslint()],
 });
