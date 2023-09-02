@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/jayyoonn/react-ts-web/compare/v1.5.0...v1.6.0) (2023-09-02)
+
+
+### Features
+
+* 接入axios ([e651f76](https://github.com/jayyoonn/react-ts-web/commit/e651f768881170551f3c6aee30514f4fd9df6615))
+
 ## [1.5.0](https://github.com/jayyoonn/react-ts-web/compare/v1.4.0...v1.5.0) (2023-08-13)
 
 
