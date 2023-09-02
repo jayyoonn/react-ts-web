@@ -14,7 +14,8 @@
 
 ## 🔧 Required
 
-- pnpm
+- Node(v16+)
+- pnpm（v7+）
 
 ## Usage
 

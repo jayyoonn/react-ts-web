@@ -9,6 +9,7 @@ import Loading from '@/components/Loading';
 const router = createBrowserRouter(routeConfig);
 
 const root = createRoot(document.querySelector('#app')!);
+
 root.render(
   <StrictMode>
     <Suspense fallback={<Loading />}>
